@@ -1,0 +1,93 @@
+:root{
+    --preto: #000000;
+    --branco: #FFFFFF;
+    --vermelho: #E50914;
+    --vermelho-escuro: #B20710;
+}
+
+/* Fonts Netflix Sans */
+
+@font-face {
+    font-family: 'Netflix Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Regular'), url('../fonts/NetflixSansRegular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans Icon';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Icon'), url('../fonts/NetflixSansIcon.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans Thin';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Thin'), url('../fonts/NetflixSansThin.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans Light';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Light'), url('../fonts/NetflixSansLight.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Medium'), url('../fonts/NetflixSansMedium.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans Bold';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Bold'), url('../fonts/NetflixSansBold.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'Netflix Sans Black';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Netflix Sans Black'), url('../fonts/NetflixSansBlack.woff') format('woff');
+}
+
+/* End Fonts */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 3.125rem;
+    font-family: 'Netflix Sans Regular';
+    font-weight: 600;
+}
+
+h2{
+    font-size: 1.625rem;
+    font-family: 'Netflix Sans Regular';
+    font-weight: 300;
+}
+
+h3{
+    font-size: 1.2rem;
+    font-family: 'Netflix Sans Regular';
+    font-weight: 300;
+}
+
+html{
+    font-family: "Netflix Sans Light", "Open Sans";
+}
