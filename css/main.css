@@ -3,13 +3,14 @@
 .header{
     background-color: transparent;
     width: 100%;
-    position: fixed;
+    position: absolute;
+    top: 0;
     z-index: 3;
 }
 
 .header .container{
 
-    width: 90%;
+    width: 95%;
     margin: 0 auto;
 
     display: flex;
@@ -18,7 +19,7 @@
 }
 
 .header .container .logo img{
-    width: 150px;
+    width: 200px;
 }
 
 .header .container .linguage-login{
@@ -161,5 +162,342 @@
 }
 
 .banner .container .text .email-form .send-email button:hover{
+    background-color: #F40612;
+}
+
+/**/
+
+.text-content p{
+    font-size: 1.515rem;
+    line-height: 34px;
+    font-weight: 600;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+.container-max{
+    width: 90%;
+    max-width: 1140px;
+
+    margin: 0 auto;
+}
+
+/*Seção Tv*/
+
+.natv{
+    width: 100%;
+    border: 8px solid #222222;
+    border-left: none;
+    border-right: none;
+    padding: 20px 0px;
+}
+
+.natv .container .content {
+    padding: 60px 0;
+}
+
+
+.natv .container .content .gif-serie .tv{
+    position: relative;
+    width: 555px;
+}
+
+.natv .container .content .gif-serie .tv img{
+    width: 100%;
+    z-index: 3;
+    position: relative;
+}
+
+.natv .container .content .gif-serie .tv .video{
+    width: 100%;
+    height: 100%;
+    max-width: 73%;
+    max-height: 54%;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.natv .container .content .gif-serie .tv .video video{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+    
+/* Donwload Series */
+
+.baixar-series{
+    width: 100%;
+    border-bottom: 8px solid #222222;
+}
+
+
+.baixar-series .container .content{
+    padding: 60px 0px;
+    justify-content: space-between;
+}
+.baixar-series .container .content .text-content{
+    width: 45%;
+}
+
+.baixar-series .container .content .image-cel{
+    width: 40%;
+    position: relative;
+}
+
+.baixar-series .container .content .image-cel img{
+    width: 100%;
+    position: relative;
+}
+
+.baixar-series .container .content .image-cel .download{
+    position: absolute;
+    
+    border: 2px solid #222222;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    max-width: 350px;
+
+    top: 80%;
+    left: 50%;
+
+    transform: translate(-50%,-50%);
+}
+
+.baixar-series .container .content .image-cel .download .cartaz{
+    width: 51px;
+}
+
+.baixar-series .container .content .image-cel .download .gif{
+    width: 50px;
+}
+
+
+.baixar-series .container .content .image-cel .download .text .andamento{
+    color: #0071eb;
+    font-size: 14px;
+}
+
+/* Quando Quiser */
+
+.quando-quiser{
+    width: 100%;
+    border-bottom: 8px solid #222222;
+}
+
+.quando-quiser .container .content{
+    padding: 60px 0;
+}
+
+.quando-quiser .container .content .text-content{
+    max-width: 550px;
+}
+
+.quando-quiser .container .content .desktop-mobile{
+    position: relative;
+    width: 65%;
+}
+
+.quando-quiser .container .content .desktop-mobile img{
+    position: relative;
+    z-index: 2;
+    width: 100%;
+}
+
+.quando-quiser .container .content .desktop-mobile .video{
+    width: 100%;
+    height: 100%;
+    max-width: 65%;
+    max-height: 58%;
+    position: absolute;
+    top: 34%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.quando-quiser .container .content .desktop-mobile .video video{
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: baseline;
+}
+
+/* Para crinaças */
+
+.para-criancas{
+    width: 100%;
+    border-bottom: 8px solid #222222;
+}
+
+.para-criancas .container .content{
+    padding: 60px 0;
+    justify-content: space-between;
+}
+
+.para-criancas .container .content .image img{
+    width: 500px;
+}
+
+.para-criancas .container .content .text-content{
+    padding-left: 60px;
+    max-width: 600px;
+}
+
+/* Accordion Perguntas */
+
+.perguntas{
+    width: 100%;
+    border-bottom: 8px solid #222222;
+}
+
+.perguntas .container{
+    text-align: center;
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.perguntas .container .title{
+    padding: 40px 0;
+}
+
+.perguntas .accordion-button{
+    width: 100%;
+    background-color: #303030;
+    border: none;
+    color: #FFF;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 5px 40px;
+
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.perguntas .accordion-button.active,
+.perguntas .accordion-button.accordion:hover {
+    background-color: #323232;
+  
+}
+
+
+
+.perguntas .accordion-button .accordion-title{
+    font-size: 1.625rem;
+}
+
+.perguntas .accordion-button .close-accordion{
+    font-size: 3.0rem;
+    font-weight: 100;
+    font-family: "Netflix Sans Thin";
+    transition: 0.3s linear;
+}
+
+.perguntas .accordion-button.active .close-accordion{
+    transform: rotate(45deg);
+    transition: 0.3s linear;
+}
+
+.perguntas .painel-accordion{
+    background-color: #303030;
+    color: #FFF;
+    font-size: 1.625rem;
+    padding: 0px 40px;
+    text-align: left;
+
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+.perguntas .painel-accordion .content{
+    padding: 20px 10px;
+}
+.perguntas .painel-accordion p{
+    padding: 8px 0;
+}
+
+.perguntas .container .form{
+    padding: 60px 0;
+}
+
+.perguntas .container .form h4{
+    padding: 20px 0;
+}
+.perguntas .container .form  .email-form{
+    width: 80%;
+    height: 100px;
+    max-height: 67px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+
+.perguntas .container .form  .email-form .label-form-email{
+    width: 70%;
+    position: relative;
+}
+
+
+
+.perguntas .container .form  .email-form .label-form-email .placeLabel{
+    position: absolute;
+    top: 50%;
+    left: 10px;
+    font-weight: 600;
+    color: #8c8c8c;
+    font-size: 16px;
+    transform: translateY(-50%);
+
+    transition: font .1s ease,top .1s ease,transform .1s ease,-webkit-transform .1s ease,-moz-transform .1s ease,-o-transform .1s ease;
+}
+
+.perguntas .container .form  .email-form .label-form-email input{
+    width: 100%;
+
+    padding: 20px 8px;
+    position: relative;
+    outline: none;
+
+    font-family: "Netflix Sans Medium";
+    font-size: 18px;
+}
+
+.perguntas .container .form  .email-form .label-form-email input:focus + .placeLabel{
+    font-size: 12px;
+    transform: translateY(-200%);
+}
+
+.perguntas .container .form  .email-form .send-email{
+    width: 30%;
+    height: 100%;
+    text-align: center;
+}
+
+.perguntas .container .form  .email-form .send-email button{
+    width: 100%;
+    height: 100%;
+    background-color: var(--vermelho);
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.perguntas .container .form  .email-form .send-email button:hover{
     background-color: #F40612;
 }

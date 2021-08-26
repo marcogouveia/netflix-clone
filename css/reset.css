@@ -70,6 +70,10 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: #000000;
+}
+
 h1{
     font-size: 3.125rem;
     font-family: 'Netflix Sans Regular';
@@ -90,4 +94,11 @@ h3{
 
 html{
     font-family: "Netflix Sans Light", "Open Sans";
+    color: var(--branco);
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
