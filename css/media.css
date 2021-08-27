@@ -1,0 +1,68 @@
+/* Media Querys */
+
+@media screen and (max-width: 950px){
+    .flex{
+        flex-direction: column;
+    }
+    .header .container .logo img{
+        width: 100%;
+        min-width: 100px;
+        max-width: 200px;
+    }
+    .header .container .linguage-login .select {
+        width: 120px;
+        text-align: center;
+        margin: 0 5px;
+    }
+
+    .header .container .linguage-login .button-login a{
+        padding: 5px 10px;
+    }
+
+    .header .container .linguage-login .select select{
+        width: 100%;
+        padding: 5px 0px;
+        padding-left: 25px;
+    }
+    .header .container .linguage-login .select label::after{
+        font-size: 15px;
+    }
+
+    .header .container .linguage-login .select::before{
+        font-size: 15px;
+        left: 2px;
+    }
+    
+    .container{
+        width: 90% !important;
+        max-width: none;
+    }
+
+    .text-content{
+        width: 100% !important;
+    }
+
+    .para-criancas .container .content .image img{
+        width: 100%;
+    }
+    .baixar-series .container .content .image-cel{
+        width: 80%;
+    }
+
+    .baixar-series .container .content{
+        flex-direction: column-reverse;
+    }
+
+    .para-criancas .container .content{
+        flex-direction: column-reverse;
+    }
+
+    .natv .container .content .gif-serie .tv{
+        width: 100%;
+    }
+
+    .baixar-series .container .content .image-cel .download{
+        max-width: none;
+        min-width: 300px;
+    }
+}

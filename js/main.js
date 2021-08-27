@@ -7,6 +7,7 @@ for (i = 0; i < acc.length; i++) {
         var panel = this.nextElementSibling;
 
         console.log(panel);
+        
         if (panel.style.maxHeight) {
             panel.style.maxHeight = null;
         } else {

@@ -30,13 +30,61 @@
 
 .header .container .linguage-login .select{
     margin: 0 2rem;
-    
+    position: relative;
 }
 
 .header .container .linguage-login .select select{
-    padding: 7px 17px;
+    padding: 12px 26px 12px 50px;
     text-align: center;
+    border-radius: 5px;
     outline: #FFF;
+    background-color: transparent;
+    color: #FFF;
+    font-size: 14px;
+    position: relative;
+    outline: none;
+    width: 150px;
+    background: none;
+
+    -webkit-appearance: none;
+    /* Remove estilo padrão do Chrome */
+    -moz-appearance: none;
+    /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+}
+
+.header .container .linguage-login .select select option{
+    background-color: #757575;
+}
+
+.header .container .linguage-login .select::before{
+    position: absolute;
+    /*content: "\e896";*/
+    content: "\1F5FA";
+    top: 50%;
+    left: 10px;
+    color: #fff;
+    font-size: 20px;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+}
+
+.header .container .linguage-login .select label::after{
+    position: absolute;
+    /*content: "\e896";*/
+    content: "\25BC";
+    top: 50%;
+    right: 0px;
+    color: #fff;
+    font-size: 20px;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+
+    transform: translateY(-50%);
+
 }
 .header .container .linguage-login .button-login a{
     background-color: var(--vermelho);
@@ -501,3 +549,121 @@
 .perguntas .container .form  .email-form .send-email button:hover{
     background-color: #F40612;
 }
+
+
+/* Footer */
+
+.footer{
+    width: 100%;
+}
+
+.footer .container{
+
+    width: 90%;
+    max-width: 1000px;
+
+    display: flex;
+    flex-direction: column;
+
+    margin: 0 auto;
+    
+}
+
+.footer .container #ligue{
+    color: #757575;
+    padding-top: 50px;
+}
+
+.footer .container #ligue a{
+    color: #757575;
+    text-decoration: none;
+}
+
+.footer .container #ligue a:hover{
+    text-decoration: underline;
+}
+
+.footer .container .links-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+
+    padding: 30px 0;
+    max-width: 900px;
+}
+
+
+
+.footer .container .links-footer ul li{
+    list-style: none;
+    padding: 8px 0;
+}
+
+.footer .container .links-footer ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #757575;
+}
+
+.footer .container .select-footer{
+    position: relative;
+    max-width: 171px;
+}
+
+.footer .container .select-footer::before{
+    position: absolute;
+    /*content: "\e896";*/
+    content: "\1F5FA";
+    top: 8px;
+    left: 10px;
+    color: #757575;
+    font-size: 20px;
+    z-index: 2;
+    width: 20px;
+    height: 20px;
+}
+
+.footer .container .select-footer label::after{
+    position: absolute;
+    /*content: "\e896";*/
+    content: "\25BC";
+    top: 8px;
+    right: -5px;
+    color: #757575;
+    font-size: 20px;
+    z-index: -1;
+    width: 20px;
+    height: 20px;
+
+}
+
+.footer .container .select-footer select{
+    padding: 12px 26px 12px 50px;
+    text-align: center;
+    outline: #FFF;
+    background-color: transparent;
+    color: #757575;
+    font-size: 16px;
+    position: relative;
+    outline: none;
+    width: 175px;
+    background: none;
+
+    -webkit-appearance: none;
+    /* Remove estilo padrão do Chrome */
+    -moz-appearance: none;
+    /* Remove estilo padrão do FireFox */
+    appearance: none; /* Remove estilo padrão do FireFox*/
+}
+
+
+.footer .container .select-footer select option{
+    background-color: #000;
+}
+
+.footer .container #netflix{
+    color: #757575;
+    padding: 30px 0;
+    font-size: 13px;
+}
+
