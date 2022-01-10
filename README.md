@@ -3,13 +3,13 @@ Clone de Netflix em HTML, CSS e JavaScript
 
 Projeto proposto pela DIO
 
-Criação da página inicial e página do aplicativo do site Netflix, site responsivo e performatico;
+Criação da página inicial e página do aplicativo do site Netflix, site responsivo e performático;
 
 <a target="_blank" href="https://marcogouveia.github.io/netflix-clone/">Link do Projeto</a>
 
 ### Oque foi usado?
 
-Foi usado jQuery + Owl.js para a criação dos carrosséis de imagens alem do FontAwesome para os ícones
+Foi usado jQuery + Owl.js para a criação dos carrosséis de imagens além do FontAwesome para os ícones
 
 ## Página do Aplicativo
 
