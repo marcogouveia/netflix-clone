@@ -3,6 +3,7 @@
     --branco: #FFFFFF;
     --vermelho: #E50914;
     --vermelho-escuro: #B20710;
+    --preto-browser: #141414;
 }
 
 /* Fonts Netflix Sans */
@@ -95,6 +96,10 @@ h3{
 html{
     font-family: "Netflix Sans Light", "Open Sans";
     color: var(--branco);
+}
+
+li{
+    list-style: none;
 }
 
 .flex{
